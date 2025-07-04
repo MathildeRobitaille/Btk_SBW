@@ -1,0 +1,55 @@
+File Photos.csv,
+Content,Measures of Plant Area Index (PAI) from hemispherical photographies
+Columns title meaning,
+Date_(AA-MM-JJ),Date at which pictures were taken
+Trait.,Btk protection scenario
+Placette,Expermiental unit number 
+Bloc,Plot ID within the experimental unit
+Micro.plac.,"Position at which the picture was taken (North, East, West or South, at 6 meters from the plot center)"
+PAI,Plant Area Index with the LiCor’s LAI-2000 Generalized with Lang and Xiang 1986 clumping correction obtained with WinSCANOPY 2016 Reg
+,
+File Tolerance.csv,
+Content,"Shade Tolerance of each species from Traits Of Plants In Canada database (TOPIC, Aubin et al., 2020), Humbert et al. (2007) as well as USDA and NRCS (2015)"
+Columns title meaning,
+Tolerance,"Sahde tolerance class: 1: shade-intolerant (cannot survive in shade conditions), 2: mid-shade-tolerant (can survive with partical shade during its life), 3: shade-tolerant (can fully develop in shade conditions)"
+,
+File Veg.csv,
+Content,% cover of each speices : 0.5 : < 1%; 1 : 1-5%; 2 : 5-25%; 3 : 25-50%; 4 : 50-75%; 5 : 75-95%; 6 : 95-100%
+Columns title meaning,
+Date_(AA-MM-JJ),Date at which percent cover were estimated
+Trait.,Btk protection scenario
+Placette,Expermiental unit number 
+Bloc,Plot ID within the experimental unit
+Micro-plac.,"Position of the 1m2 subplot sampled (North, East, West or South, at 3, 6 or 9 meters from the plot center)"
+,
+File Fruits.csv,
+Content,Number of fruits counted on the field for each speices for 1 min and extrapolated to the whole subplot
+Columns title meaning,
+Date_(AA-MM-JJ),Date at which the fruits were counted
+Trait.,Btk protection scenario
+Placette,Expermiental unit number 
+Bloc,Plot ID within the experimental unit
+Micro-plac.,"Position of the 1m2 subplot sampled (North, East, West or South, at 3, 6 or 9 meters from the plot center)"
+,
+File Lichens.csv,
+Content,Arboreal lichen biomass
+Columns title meaning,
+Date_(AA-MM-JJ),Date at which the biomass were estimated
+Trait.,Btk protection scenario
+Placette,Expermiental unit number 
+Bloc,Plot ID within the experimental unit
+Arbre,Tree sampled (Ab 1 and AB2 : two Abies balsamea sampled; P1 and P2: two Picea sp. sampled)
+Num,Tree number (SOPFIM) sampled for lichen count
+Localisation,"Orientation (N, S, E or W) and distance (in steps) between the tree and the plot center"
+…_sp.,Lichen biomass per genus
+,
+File DHP_2022_parcelles_400m.csv,
+Content,Diameter at Breat Hight (DBH) data of the trees within each experimental units. Measures were taken in 2021 or 2022 by SOPFIM
+Columns title meaning,
+Placette,Expermiental unit number 
+Secteur,Abitrarly delimited region in which the experimental unit is located
+Bloc,Plot ID within the experimental unit
+Trait.,Btk protection scenario
+Num,Tree number determinated by SOPFIM
+Essence,Tree specie sampled (BOJ: Betula alleghaniensis; BOP: Betula papyrifera; EPB: Picea glauca; EPN: Picea mariana; ERR: Acer rubrum; PET: Populus tremuloides; SAB: Abies balsamea). Species code followed by m (as in SABm or EPNm) indicates a dead tree
+Diametre_(mm)_2022_ou_2021,DBH data collected in 2021 or 2022 by SOPFIM
